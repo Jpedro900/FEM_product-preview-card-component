@@ -1,0 +1,103 @@
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 62.5%;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    color: hsl(228, 12%, 48%);
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.left img{
+    margin-top: 0.15rem;
+    width: 18vw;
+    height: 50vh;
+    border-radius: 10px 0 0 10px;
+}
+
+.right{
+    width: 18vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding-right: 3.8rem;
+    padding-left: 2rem;
+}
+
+.product{
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-top: 2rem;
+}
+
+.name{
+    margin-top: 1.5rem;
+    line-height: 2rem;
+}
+
+.description{
+    margin-top: 1.5rem;
+    margin-bottom: 1.6rem;
+    line-height: 1.4rem;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orprice{
+    text-decoration: line-through;
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-top: 2rem;
+    height: 3.5rem;
+    width: 16.5rem;
+    border: none;
+    color: white;
+    background-color:hsl(158, 36%, 37%);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button img{
+    margin-right: 0.5rem;
+}
+
+.button:hover{
+    background-color: hsl(158, 36%, 17%);
+}
