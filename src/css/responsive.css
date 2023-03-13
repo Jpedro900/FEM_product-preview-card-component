@@ -1,0 +1,40 @@
+@media (max-width:1440px){
+    
+}
+
+@media (max-width: 375px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: 21rem;
+        height: 47rem;
+    }
+
+    .left .imagem.mobile{
+        width: 21rem;
+        height: 18rem;
+        border-radius: 1rem 1rem 0 0;
+        display: block;
+    }
+
+    .left .imagem.desktop{
+        display: none;
+    }
+
+    .right{
+        padding-right: 0.5rem;
+        padding-left: 1rem;
+    }
+
+    .right .name{
+        margin-top: 0.8rem;
+        font-size: 2rem;
+    }
+
+    .right .price{
+        justify-content: start;
+    }
+    .right .price.price{
+        margin-right: 1rem;
+    }
+}
